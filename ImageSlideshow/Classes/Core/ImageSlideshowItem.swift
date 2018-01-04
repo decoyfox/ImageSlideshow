@@ -66,7 +66,7 @@ open class ImageSlideshowItem: UIScrollView, UIScrollViewDelegate {
  
     }
     
-    func doubleTappedInImageSlideshow() {
+    @objc func doubleTappedInImageSlideshow() {
         
         //print("i was double tapped")
         
